@@ -1,0 +1,44 @@
+# ---- Data (never commit) ----
+data/
+Data/
+DATA/
+MiniDst/
+MiniDST/
+minidst/
+MC/
+mc/
+montecarlo/
+MonteCarlo/
+MONTECARLO/
+*.root
+
+# If you have UNH/SLAC mounted paths mirrored locally:
+# net/
+# physrun2021/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# ---- ROOT / build outputs ----
+*.so
+*.dylib
+*.pcm
+*.d
+*.o
+
+# ---- Outputs / plots ----
+plots/
+figures/
+output/
+*.png
+*.pdf
+*.svg
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
